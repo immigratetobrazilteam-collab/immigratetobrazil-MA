@@ -1,0 +1,18 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Immigrate to Maranh\u00e3o",
+  "description": "Maranh\u00e3o is a Brazilian state in the Northeast Region with a population of about 7 million, known for its dunes in Len\u00e7\u00f3is Maranhenses National Park, UNESCO-listed S\u00e3o Lu\u00eds, babassu palm forests, and mangroves along the Atlantic coastline.",
+  "keywords": "Maranh\u00e3o, S\u00e3o Lu\u00eds, Len\u00e7\u00f3is Maranhenses, babassu, mangroves, Northeast Brazil, UNESCO site",
+  "url": "https://immigratetobrazil.com/ma/",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Maranh\u00e3o",
+    "addressCountry": "BR"
+  },
+  "sameAs": [
+    "https://www.ma.gov.br",
+    "https://en.wikipedia.org/wiki/Flag_of_Maranh%C3%A3o",
+    "https://en.wikipedia.org/wiki/Coat_of_arms_of_Maranh%C3%A3o"
+  ]
+}

@@ -4,13 +4,30 @@ body {
     background: #FAF0E6;
     color: #8B4513;
 }
-h1, h2 {
+
+h1, h2, h3 {
     font-family: Old English;
     color: #DAA520;
 }
+
 a {
     color: #FF6347;
+    text-decoration: none;
 }
+
 section {
     padding: 3rem;
+}
+
+button {
+    background: #DAA520;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
 }

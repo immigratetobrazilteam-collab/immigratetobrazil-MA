@@ -1,0 +1,93 @@
+{
+    "persona": {
+        "label": "Colonial Historian",
+        "tone": "Historical, cultural, resilient",
+        "visual_intensity": "medium",
+        "risk_tolerance": "conservative"
+    },
+    "tokens": {
+        "colors": {
+            "primary": "#9b2c2c",
+            "secondary": "#742a2a",
+            "accent": "#f56565",
+            "bg": "#fff5f5",
+            "text": "#63171b",
+            "hover": "#63171b",
+            "active": "#521b41",
+            "focus": "#9b2c2c",
+            "success": "#48bb78",
+            "error": "#e53e3e",
+            "warning": "#d69e2e",
+            "info": "#3182ce",
+            "neutral": "#fed7d7",
+            "link": "#742a2a",
+            "border": "#fc8181",
+            "surface": "#fed7d7",
+            "gradient_bg": "linear-gradient(to left, #fff5f5, #fed7d7)"
+        },
+        "typography": {
+            "primary_font": "'Old Standard TT', system-ui, sans-serif",
+            "base_size": "17px",
+            "line_height": "1.6",
+            "heading_sizes": [
+                "2.7rem",
+                "2.3rem",
+                "1.9rem",
+                "1.6rem",
+                "1.4rem",
+                "1.2rem"
+            ]
+        },
+        "spacing": {
+            "xs": "5px",
+            "s": "10px",
+            "m": "20px",
+            "l": "30px",
+            "xl": "50px",
+            "xxl": "70px"
+        },
+        "borders": {
+            "radius": "4px"
+        },
+        "shadows": {
+            "low": "0 2px 4px rgba(155,44,44,0.05)",
+            "medium": "0 6px 12px rgba(155,44,44,0.1)"
+        },
+        "motion": {
+            "timing": "0.4s ease-in-out"
+        },
+        "breakpoints": {
+            "tablet": "780px",
+            "desktop": "1050px"
+        },
+        "animations": {
+            "duration_base": 0.4,
+            "ease_default": "power2.inOut",
+            "intensity_mod": 1.0,
+            "risk_ease": "ease-out",
+            "mobile_mod": 0.7
+        }
+    },
+    "page_customizations": {
+        "home": {
+            "hero_bg": "var(--color-surface)",
+            "cta_color": "var(--color-accent)",
+            "section_border": "var(--color-border)"
+        },
+        "about": {
+            "intro_text": "var(--color-text)",
+            "section_border": "var(--color-border)",
+            "hero_bg": "var(--color-neutral)"
+        },
+        "services": {
+            "overview_bg": "var(--color-surface)",
+            "item_accent": "var(--color-accent)",
+            "list_color": "var(--color-info)"
+        },
+        "contact": {
+            "form_bg": "var(--color-surface)",
+            "submit_btn": "var(--color-primary)",
+            "input_border": "var(--color-border)"
+        }
+    }
+}

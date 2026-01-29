@@ -1,1097 +1,664 @@
-ma/
+MA/
 ├─ index.html
-│  ├─ ma-index-section-immigrate-to-maranho
-│  ├─ ma-index-form-immigrate-to-maranho
-│  ├─ ma-index-section-state-vibe
-│  ├─ ma-index-section-quick-facts-snapshot
-│  ├─ ma-index-section-maranho-map
-│  ├─ ma-index-section-cost-of-living-maranho
-│  ├─ ma-index-section-government-context
-│  ├─ ma-index-hero-immigration-notes
-│  ├─ ma-index-list-common-applicant-profiles
-│  ├─ ma-index-list-economic-drivers
-│  ├─ ma-index-section-demographics
-│  ├─ ma-index-section-regional-challenges
-│  ├─ ma-index-section-regional-opportunities
-│  ├─ ma-index-section-culture-daily-life
-│  ├─ ma-index-list-local-language-expressions
-│  ├─ ma-index-list-food-cuisine
-│  ├─ ma-index-list-festivals-traditions
-│  ├─ ma-index-list-music-artistic-expression
-│  ├─ ma-index-list-sports-recreation
-│  ├─ ma-index-list-landmarks-historical-sites
-│  ├─ ma-index-list-natural-features
-│  ├─ ma-index-list-parks-protected-areas
-│  ├─ ma-index-list-museums-cultural-institutions
-│  ├─ ma-index-section-image-gallery
-│  ├─ ma-index-section-useful-government-links
-│  ├─ ma-index-hero-federal-police-immigration-links
-│  ├─ ma-index-section-external-references
-│  ├─ ma-index-list-immigration-services-overview
-│  ├─ ma-index-section-why-immigrate-here
-│  ├─ contact
-│  ├─ ma-index-list-travel-services
-│  ├─ ma-index-list-how-the-process-works
-│  ├─ ma-index-section--frequently-asked-questions-about-living-in-maranho-
-│  ├─ contact
+│  ├─ ma-index-section--map
+│  ├─ ma-index-section-frequently-asked-questions-about-living-in-
+│  ├─ ma-index-contact
 
-├─ contact-cta.html
-│  ├─ ma-contactcta-section-get-started-in-maranho
+├─ footer.html
+│  ├─ main-footer
 
-├─ renouncing-citizenship.html
-│  ├─ ma-renouncingcitizenship-form-renounce-brazilian-citizenship
-│  ├─ ma-renouncingcitizenship-list-quick-facts
-│  ├─ ma-renouncingcitizenship-list-common-challenges-applicants-face
-│  ├─ ma-renouncingcitizenship-list-how-we-solve-these-challenges
-│  ├─ ma-renouncingcitizenship-section-renunciation-overview
-│  ├─ ma-renouncingcitizenship-form-who-is-this-for
-│  ├─ ma-renouncingcitizenship-list-required-documents
-│  ├─ ma-renouncingcitizenship-list-process
-│  ├─ ma-renouncingcitizenship-section-timelines-deadlines
-│  ├─ ma-renouncingcitizenship-section-fees-costs
-│  ├─ ma-renouncingcitizenship-list-risks-common-mistakes
-│  ├─ ma-renouncingcitizenship-section-diy-vs-professional-assistance
-│  ├─ ma-renouncingcitizenship-section-maranho-specific-context
-│  ├─ ma-renouncingcitizenship-section-what-our-clients-say
-│  ├─ ma-renouncingcitizenship-section-frequently-asked-questions
-│  ├─ ma-renouncingcitizenship-section-international-support
-│  ├─ application-form
-│  ├─ ma-renouncingcitizenship-list-our-credentials
-│  ├─ ma-renouncingcitizenship-list-related-services
-│  ├─ ma-renouncingcitizenship-section-youre-in-good-hands
-│  ├─ ma-renouncingcitizenship-section-21
+├─ header.html
+│  ├─ main-header
 
-├─ provisional.html
-│  ├─ ma-provisional-form-provisional-naturalisation-in-brazil-for-minors
-│  ├─ ma-provisional-list-quick-facts
-│  ├─ ma-provisional-list-common-challenges-applicants-face
-│  ├─ ma-provisional-list-how-we-solve-these-challenges
-│  ├─ ma-provisional-section-naturalisation-overview
-│  ├─ ma-provisional-form-who-is-this-naturalisation-for
-│  ├─ ma-provisional-list-required-documents
-│  ├─ ma-provisional-list-application-process
-│  ├─ ma-provisional-section-timelines-deadlines
-│  ├─ ma-provisional-section-fees-costs
-│  ├─ ma-provisional-list-risks-common-mistakes
-│  ├─ ma-provisional-section-diy-vs-professional-assistance
-│  ├─ ma-provisional-section-maranho-specific-context
-│  ├─ ma-provisional-section-what-our-clients-say
-│  ├─ ma-provisional-section-frequently-asked-questions
-│  ├─ ma-provisional-section-international-support
-│  ├─ application-form
-│  ├─ ma-provisional-list-our-credentials
-│  ├─ ma-provisional-list-related-services
-│  ├─ ma-provisional-section-youre-in-good-hands
-│  ├─ ma-provisional-section-21
-
-├─ special.html
-│  ├─ ma-special-form-special-naturalisation-in-brazil-for-particular-cases
-│  ├─ ma-special-list-quick-facts
-│  ├─ ma-special-list-common-challenges-applicants-face
-│  ├─ ma-special-list-how-we-solve-these-challenges
-│  ├─ ma-special-section-naturalisation-overview
-│  ├─ ma-special-form-who-is-this-naturalisation-for
-│  ├─ ma-special-list-required-documents
-│  ├─ ma-special-list-application-process
-│  ├─ ma-special-section-timelines-deadlines
-│  ├─ ma-special-section-fees-costs
-│  ├─ ma-special-list-risks-common-mistakes
-│  ├─ ma-special-section-diy-vs-professional-assistance
-│  ├─ ma-special-section-maranho-specific-context
-│  ├─ ma-special-section-what-our-clients-say
-│  ├─ ma-special-section-frequently-asked-questions
-│  ├─ ma-special-section-international-support
-│  ├─ application-form
-│  ├─ ma-special-list-our-credentials
-│  ├─ ma-special-list-related-services
-│  ├─ ma-special-section-youre-in-good-hands
-│  ├─ ma-special-section-21
-
-├─ ordinary.html
-│  ├─ ma-ordinary-form-obtain-brazilian-citizenship-through-ordinary-naturalisation
-│  ├─ ma-ordinary-list-quick-facts
-│  ├─ ma-ordinary-list-common-challenges-applicants-face
-│  ├─ ma-ordinary-list-how-we-solve-these-challenges
-│  ├─ ma-ordinary-section-naturalisation-overview
-│  ├─ ma-ordinary-form-who-is-this-naturalisation-for
-│  ├─ ma-ordinary-list-required-documents
-│  ├─ ma-ordinary-list-application-process
-│  ├─ ma-ordinary-section-timelines-deadlines
-│  ├─ ma-ordinary-section-fees-costs
-│  ├─ ma-ordinary-list-risks-common-mistakes
-│  ├─ ma-ordinary-section-diy-vs-professional-assistance
-│  ├─ ma-ordinary-section-maranho-specific-context
-│  ├─ ma-ordinary-section-what-our-clients-say
-│  ├─ ma-ordinary-section-frequently-asked-questions
-│  ├─ ma-ordinary-section-international-support
-│  ├─ application-form
-│  ├─ ma-ordinary-list-our-credentials
-│  ├─ ma-ordinary-list-related-services
-│  ├─ ma-ordinary-section-youre-in-good-hands
-│  ├─ ma-ordinary-section-21
-
-├─ extraordinary.html
-│  ├─ ma-extraordinary-form-extraordinary-naturalisation-in-brazil-for-contributions
-│  ├─ ma-extraordinary-list-quick-facts
-│  ├─ ma-extraordinary-list-common-challenges-applicants-face
-│  ├─ ma-extraordinary-list-how-we-solve-these-challenges
-│  ├─ ma-extraordinary-section-naturalisation-overview
-│  ├─ ma-extraordinary-form-who-is-this-naturalisation-for
-│  ├─ ma-extraordinary-list-required-documents
-│  ├─ ma-extraordinary-list-application-process
-│  ├─ ma-extraordinary-section-timelines-deadlines
-│  ├─ ma-extraordinary-section-fees-costs
-│  ├─ ma-extraordinary-list-risks-common-mistakes
-│  ├─ ma-extraordinary-section-diy-vs-professional-assistance
-│  ├─ ma-extraordinary-section-maranho-specific-context
-│  ├─ ma-extraordinary-section-what-our-clients-say
-│  ├─ ma-extraordinary-section-frequently-asked-questions
-│  ├─ ma-extraordinary-section-international-support
-│  ├─ application-form
-│  ├─ ma-extraordinary-list-our-credentials
-│  ├─ ma-extraordinary-list-related-services
-│  ├─ ma-extraordinary-section-youre-in-good-hands
-│  ├─ ma-extraordinary-section-21
-
-├─ reacquisition-citizenship.html
-│  ├─ ma-reacquisitioncitizenship-form-reacquire-brazilian-citizenship
-│  ├─ ma-reacquisitioncitizenship-list-quick-facts
-│  ├─ ma-reacquisitioncitizenship-list-common-challenges-applicants-face
-│  ├─ ma-reacquisitioncitizenship-list-how-we-solve-these-challenges
-│  ├─ ma-reacquisitioncitizenship-section-reacquisition-overview
-│  ├─ ma-reacquisitioncitizenship-form-who-is-this-for
-│  ├─ ma-reacquisitioncitizenship-list-required-documents
-│  ├─ ma-reacquisitioncitizenship-list-process
-│  ├─ ma-reacquisitioncitizenship-section-timelines-deadlines
-│  ├─ ma-reacquisitioncitizenship-section-fees-costs
-│  ├─ ma-reacquisitioncitizenship-list-risks-common-mistakes
-│  ├─ ma-reacquisitioncitizenship-section-diy-vs-professional-assistance
-│  ├─ ma-reacquisitioncitizenship-section-maranho-specific-context
-│  ├─ ma-reacquisitioncitizenship-section-what-our-clients-say
-│  ├─ ma-reacquisitioncitizenship-section-frequently-asked-questions
-│  ├─ ma-reacquisitioncitizenship-section-international-support
-│  ├─ application-form
-│  ├─ ma-reacquisitioncitizenship-list-our-credentials
-│  ├─ ma-reacquisitioncitizenship-list-related-services
-│  ├─ ma-reacquisitioncitizenship-section-youre-in-good-hands
-│  ├─ ma-reacquisitioncitizenship-section-21
-
-├─ scientific-research.html
-│  ├─ ma-scientificresearch-form-conduct-scientific-research-with-residency-in-brazil
-│  ├─ ma-scientificresearch-list-quick-facts
-│  ├─ ma-scientificresearch-list-common-challenges-applicants-face
-│  ├─ ma-scientificresearch-list-how-we-solve-these-challenges
-│  ├─ ma-scientificresearch-section-residency-overview
-│  ├─ ma-scientificresearch-form-who-is-this-residency-for
-│  ├─ ma-scientificresearch-list-required-documents
-│  ├─ ma-scientificresearch-list-application-process
-│  ├─ ma-scientificresearch-section-timelines-deadlines
-│  ├─ ma-scientificresearch-section-fees-costs
-│  ├─ ma-scientificresearch-list-risks-common-mistakes
-│  ├─ ma-scientificresearch-section-diy-vs-professional-assistance
-│  ├─ ma-scientificresearch-section-maranho-specific-context
-│  ├─ ma-scientificresearch-section-what-our-clients-say
-│  ├─ ma-scientificresearch-section-frequently-asked-questions
-│  ├─ ma-scientificresearch-section-international-support
-│  ├─ application-form
-│  ├─ ma-scientificresearch-list-our-credentials
-│  ├─ ma-scientificresearch-list-related-services
-│  ├─ ma-scientificresearch-section-youre-in-good-hands
-│  ├─ ma-scientificresearch-section-21
-
-├─ study.html
-│  ├─ ma-study-form-study-in-brazil-with-study-residency
-│  ├─ ma-study-list-quick-facts
-│  ├─ ma-study-list-common-challenges-applicants-face
-│  ├─ ma-study-list-how-we-solve-these-challenges
-│  ├─ ma-study-section-residency-overview
-│  ├─ ma-study-form-who-is-this-residency-for
-│  ├─ ma-study-list-required-documents
-│  ├─ ma-study-list-application-process
-│  ├─ ma-study-section-timelines-deadlines
-│  ├─ ma-study-section-fees-costs
-│  ├─ ma-study-list-risks-common-mistakes
-│  ├─ ma-study-section-diy-vs-professional-assistance
-│  ├─ ma-study-section-maranho-specific-context
-│  ├─ ma-study-section-what-our-clients-say
-│  ├─ ma-study-section-frequently-asked-questions
-│  ├─ ma-study-section-international-support
-│  ├─ application-form
-│  ├─ ma-study-list-our-credentials
-│  ├─ ma-study-list-related-services
-│  ├─ ma-study-section-youre-in-good-hands
-│  ├─ ma-study-section-21
-
-├─ educational-exchange.html
-│  ├─ ma-educationalexchange-form-participate-in-educational-exchanges-with-residency-in-brazil
-│  ├─ ma-educationalexchange-list-quick-facts
-│  ├─ ma-educationalexchange-list-common-challenges-applicants-face
-│  ├─ ma-educationalexchange-list-how-we-solve-these-challenges
-│  ├─ ma-educationalexchange-section-residency-overview
-│  ├─ ma-educationalexchange-form-who-is-this-residency-for
-│  ├─ ma-educationalexchange-list-required-documents
-│  ├─ ma-educationalexchange-list-application-process
-│  ├─ ma-educationalexchange-section-timelines-deadlines
-│  ├─ ma-educationalexchange-section-fees-costs
-│  ├─ ma-educationalexchange-list-risks-common-mistakes
-│  ├─ ma-educationalexchange-section-diy-vs-professional-assistance
-│  ├─ ma-educationalexchange-section-maranho-specific-context
-│  ├─ ma-educationalexchange-section-what-our-clients-say
-│  ├─ ma-educationalexchange-section-frequently-asked-questions
-│  ├─ ma-educationalexchange-section-international-support
-│  ├─ application-form
-│  ├─ ma-educationalexchange-list-our-credentials
-│  ├─ ma-educationalexchange-list-related-services
-│  ├─ ma-educationalexchange-section-youre-in-good-hands
-│  ├─ ma-educationalexchange-section-21
-
-├─ humanitarian.html
-│  ├─ ma-humanitarian-form-humanitarian-residency-in-brazil-for-protection
-│  ├─ ma-humanitarian-list-quick-facts
-│  ├─ ma-humanitarian-list-common-challenges-applicants-face
-│  ├─ ma-humanitarian-list-how-we-solve-these-challenges
-│  ├─ ma-humanitarian-section-residency-overview
-│  ├─ ma-humanitarian-form-who-is-this-residency-for
-│  ├─ ma-humanitarian-list-required-documents
-│  ├─ ma-humanitarian-list-application-process
-│  ├─ ma-humanitarian-section-timelines-deadlines
-│  ├─ ma-humanitarian-section-fees-costs
-│  ├─ ma-humanitarian-list-risks-common-mistakes
-│  ├─ ma-humanitarian-section-diy-vs-professional-assistance
-│  ├─ ma-humanitarian-section-maranho-specific-context
-│  ├─ ma-humanitarian-section-what-our-clients-say
-│  ├─ ma-humanitarian-section-frequently-asked-questions
-│  ├─ ma-humanitarian-section-international-support
-│  ├─ application-form
-│  ├─ ma-humanitarian-list-our-credentials
-│  ├─ ma-humanitarian-list-related-services
-│  ├─ ma-humanitarian-section-youre-in-good-hands
-│  ├─ ma-humanitarian-section-21
-
-├─ digital-nomad.html
-│  ├─ ma-digitalnomad-form-digital-nomad-residency-in-brazil
-│  ├─ ma-digitalnomad-list-quick-facts
-│  ├─ ma-digitalnomad-list-common-challenges-applicants-face
-│  ├─ ma-digitalnomad-list-how-we-solve-these-challenges
-│  ├─ ma-digitalnomad-section-residency-overview
-│  ├─ ma-digitalnomad-form-who-is-this-residency-for
-│  ├─ ma-digitalnomad-list-required-documents
-│  ├─ ma-digitalnomad-list-application-process
-│  ├─ ma-digitalnomad-section-timelines-deadlines
-│  ├─ ma-digitalnomad-section-fees-costs
-│  ├─ ma-digitalnomad-list-risks-common-mistakes
-│  ├─ ma-digitalnomad-section-diy-vs-professional-assistance
-│  ├─ ma-digitalnomad-section-maranho-specific-context
-│  ├─ ma-digitalnomad-section-what-our-clients-say
-│  ├─ ma-digitalnomad-section-frequently-asked-questions
-│  ├─ ma-digitalnomad-section-international-support
-│  ├─ application-form
-│  ├─ ma-digitalnomad-list-our-credentials
-│  ├─ ma-digitalnomad-list-related-services
-│  ├─ ma-digitalnomad-section-youre-in-good-hands
-│  ├─ ma-digitalnomad-section-21
-
-├─ family-reunion.html
-│  ├─ ma-familyreunion-form-reunite-with-family-in-brazil-with-family-reunion-residency
-│  ├─ ma-familyreunion-list-quick-facts
-│  ├─ ma-familyreunion-list-common-challenges-applicants-face
-│  ├─ ma-familyreunion-list-how-we-solve-these-challenges
-│  ├─ ma-familyreunion-section-residency-overview
-│  ├─ ma-familyreunion-form-who-is-this-residency-for
-│  ├─ ma-familyreunion-list-required-documents
-│  ├─ ma-familyreunion-list-application-process
-│  ├─ ma-familyreunion-section-timelines-deadlines
-│  ├─ ma-familyreunion-section-fees-costs
-│  ├─ ma-familyreunion-list-risks-common-mistakes
-│  ├─ ma-familyreunion-section-diy-vs-professional-assistance
-│  ├─ ma-familyreunion-section-maranho-specific-context
-│  ├─ ma-familyreunion-section-what-our-clients-say
-│  ├─ ma-familyreunion-section-frequently-asked-questions
-│  ├─ ma-familyreunion-section-international-support
-│  ├─ application-form
-│  ├─ ma-familyreunion-list-our-credentials
-│  ├─ ma-familyreunion-list-related-services
-│  ├─ ma-familyreunion-section-youre-in-good-hands
-│  ├─ ma-familyreunion-section-21
-
-├─ mercosul.html
-│  ├─ ma-mercosul-form-residency-for-mercosul-citizens-in-brazil
-│  ├─ ma-mercosul-list-quick-facts
-│  ├─ ma-mercosul-list-common-challenges-applicants-face
-│  ├─ ma-mercosul-list-how-we-solve-these-challenges
-│  ├─ ma-mercosul-section-residency-overview
-│  ├─ ma-mercosul-form-who-is-this-residency-for
-│  ├─ ma-mercosul-list-required-documents
-│  ├─ ma-mercosul-list-application-process
-│  ├─ ma-mercosul-section-timelines-deadlines
-│  ├─ ma-mercosul-section-fees-costs
-│  ├─ ma-mercosul-list-risks-common-mistakes
-│  ├─ ma-mercosul-section-diy-vs-professional-assistance
-│  ├─ ma-mercosul-section-maranho-specific-context
-│  ├─ ma-mercosul-section-what-our-clients-say
-│  ├─ ma-mercosul-section-frequently-asked-questions
-│  ├─ ma-mercosul-section-international-support
-│  ├─ application-form
-│  ├─ ma-mercosul-list-our-credentials
-│  ├─ ma-mercosul-list-related-services
-│  ├─ ma-mercosul-section-youre-in-good-hands
-│  ├─ ma-mercosul-section-21
-
-├─ retiree.html
-│  ├─ ma-retiree-form-retire-in-brazil-with-retiree-residency
-│  ├─ ma-retiree-list-quick-facts
-│  ├─ ma-retiree-list-common-challenges-applicants-face
-│  ├─ ma-retiree-list-how-we-solve-these-challenges
-│  ├─ ma-retiree-section-residency-overview
-│  ├─ ma-retiree-form-who-is-this-residency-for
-│  ├─ ma-retiree-list-required-documents
-│  ├─ ma-retiree-list-application-process
-│  ├─ ma-retiree-section-timelines-deadlines
-│  ├─ ma-retiree-section-fees-costs
-│  ├─ ma-retiree-list-risks-common-mistakes
-│  ├─ ma-retiree-section-diy-vs-professional-assistance
-│  ├─ ma-retiree-section-maranho-specific-context
-│  ├─ ma-retiree-section-what-our-clients-say
-│  ├─ ma-retiree-section-frequently-asked-questions
-│  ├─ ma-retiree-section-international-support
-│  ├─ application-form
-│  ├─ ma-retiree-list-our-credentials
-│  ├─ ma-retiree-list-related-services
-│  ├─ ma-retiree-section-youre-in-good-hands
-│  ├─ ma-retiree-section-21
-
-├─ volunteer.html
-│  ├─ ma-volunteer-form-volunteer-in-brazil-with-volunteer-residency
-│  ├─ ma-volunteer-list-quick-facts
-│  ├─ ma-volunteer-list-common-challenges-applicants-face
-│  ├─ ma-volunteer-list-how-we-solve-these-challenges
-│  ├─ ma-volunteer-section-residency-overview
-│  ├─ ma-volunteer-form-who-is-this-residency-for
-│  ├─ ma-volunteer-list-required-documents
-│  ├─ ma-volunteer-list-application-process
-│  ├─ ma-volunteer-section-timelines-deadlines
-│  ├─ ma-volunteer-section-fees-costs
-│  ├─ ma-volunteer-list-risks-common-mistakes
-│  ├─ ma-volunteer-section-diy-vs-professional-assistance
-│  ├─ ma-volunteer-section-maranho-specific-context
-│  ├─ ma-volunteer-section-what-our-clients-say
-│  ├─ ma-volunteer-section-frequently-asked-questions
-│  ├─ ma-volunteer-section-international-support
-│  ├─ application-form
-│  ├─ ma-volunteer-list-our-credentials
-│  ├─ ma-volunteer-list-related-services
-│  ├─ ma-volunteer-section-youre-in-good-hands
-│  ├─ ma-volunteer-section-21
-
-├─ skilled-worker.html
-│  ├─ ma-skilledworker-form-skilled-worker-residency-in-brazil-for-professionals
-│  ├─ ma-skilledworker-list-quick-facts
-│  ├─ ma-skilledworker-list-common-challenges-applicants-face
-│  ├─ ma-skilledworker-list-how-we-solve-these-challenges
-│  ├─ ma-skilledworker-section-residency-overview
-│  ├─ ma-skilledworker-form-who-is-this-residency-for
-│  ├─ ma-skilledworker-list-required-documents
-│  ├─ ma-skilledworker-list-application-process
-│  ├─ ma-skilledworker-section-timelines-deadlines
-│  ├─ ma-skilledworker-section-fees-costs
-│  ├─ ma-skilledworker-list-risks-common-mistakes
-│  ├─ ma-skilledworker-section-diy-vs-professional-assistance
-│  ├─ ma-skilledworker-section-maranho-specific-context
-│  ├─ ma-skilledworker-section-what-our-clients-say
-│  ├─ ma-skilledworker-section-frequently-asked-questions
-│  ├─ ma-skilledworker-section-international-support
-│  ├─ application-form
-│  ├─ ma-skilledworker-list-our-credentials
-│  ├─ ma-skilledworker-list-related-services
-│  ├─ ma-skilledworker-section-youre-in-good-hands
-│  ├─ ma-skilledworker-section-21
-
-├─ religious.html
-│  ├─ ma-religious-form-religious-residency-in-brazil-for-missions
-│  ├─ ma-religious-list-quick-facts
-│  ├─ ma-religious-list-common-challenges-applicants-face
-│  ├─ ma-religious-list-how-we-solve-these-challenges
-│  ├─ ma-religious-section-residency-overview
-│  ├─ ma-religious-form-who-is-this-residency-for
-│  ├─ ma-religious-list-required-documents
-│  ├─ ma-religious-list-application-process
-│  ├─ ma-religious-section-timelines-deadlines
-│  ├─ ma-religious-section-fees-costs
-│  ├─ ma-religious-list-risks-common-mistakes
-│  ├─ ma-religious-section-diy-vs-professional-assistance
-│  ├─ ma-religious-section-maranho-specific-context
-│  ├─ ma-religious-section-what-our-clients-say
-│  ├─ ma-religious-section-frequently-asked-questions
-│  ├─ ma-religious-section-international-support
-│  ├─ application-form
-│  ├─ ma-religious-list-our-credentials
-│  ├─ ma-religious-list-related-services
-│  ├─ ma-religious-section-youre-in-good-hands
-│  ├─ ma-religious-section-21
-
-├─ investor.html
-│  ├─ ma-investor-form-gain-residency-in-brazil-through-investment
-│  ├─ ma-investor-list-quick-facts
-│  ├─ ma-investor-list-common-challenges-applicants-face
-│  ├─ ma-investor-list-how-we-solve-these-challenges
-│  ├─ ma-investor-section-residency-overview
-│  ├─ ma-investor-form-who-is-this-residency-for
-│  ├─ ma-investor-list-required-documents
-│  ├─ ma-investor-list-application-process
-│  ├─ ma-investor-section-timelines-deadlines
-│  ├─ ma-investor-section-fees-costs
-│  ├─ ma-investor-list-risks-common-mistakes
-│  ├─ ma-investor-section-diy-vs-professional-assistance
-│  ├─ ma-investor-section-maranho-specific-context
-│  ├─ ma-investor-section-what-our-clients-say
-│  ├─ ma-investor-section-frequently-asked-questions
-│  ├─ ma-investor-section-international-support
-│  ├─ application-form
-│  ├─ ma-investor-list-our-credentials
-│  ├─ ma-investor-list-related-services
-│  ├─ ma-investor-section-youre-in-good-hands
-│  ├─ ma-investor-section-21
-
-├─ health-treatment.html
-│  ├─ ma-healthtreatment-form-extend-your-stay-for-health-treatment-in-brazil
-│  ├─ ma-healthtreatment-list-quick-facts
-│  ├─ ma-healthtreatment-list-common-challenges-applicants-face
-│  ├─ ma-healthtreatment-list-how-we-solve-these-challenges
-│  ├─ ma-healthtreatment-section-residency-overview
-│  ├─ ma-healthtreatment-form-who-is-this-residency-for
-│  ├─ ma-healthtreatment-list-required-documents
-│  ├─ ma-healthtreatment-list-application-process
-│  ├─ ma-healthtreatment-section-timelines-deadlines
-│  ├─ ma-healthtreatment-section-fees-costs
-│  ├─ ma-healthtreatment-list-risks-common-mistakes
-│  ├─ ma-healthtreatment-section-diy-vs-professional-assistance
-│  ├─ ma-healthtreatment-section-maranho-specific-context
-│  ├─ ma-healthtreatment-section-what-our-clients-say
-│  ├─ ma-healthtreatment-section-frequently-asked-questions
-│  ├─ ma-healthtreatment-section-international-support
-│  ├─ application-form
-│  ├─ ma-healthtreatment-list-our-credentials
-│  ├─ ma-healthtreatment-list-related-services
-│  ├─ ma-healthtreatment-section-youre-in-good-hands
-│  ├─ ma-healthtreatment-section-21
-
-├─ cplp.html
-│  ├─ ma-cplp-form-residency-for-cplp-citizens-in-brazil
-│  ├─ ma-cplp-list-quick-facts
-│  ├─ ma-cplp-list-common-challenges-applicants-face
-│  ├─ ma-cplp-list-how-we-solve-these-challenges
-│  ├─ ma-cplp-section-residency-overview
-│  ├─ ma-cplp-form-who-is-this-residency-for
-│  ├─ ma-cplp-list-required-documents
-│  ├─ ma-cplp-list-application-process
-│  ├─ ma-cplp-section-timelines-deadlines
-│  ├─ ma-cplp-section-fees-costs
-│  ├─ ma-cplp-list-risks-common-mistakes
-│  ├─ ma-cplp-section-diy-vs-professional-assistance
-│  ├─ ma-cplp-section-maranho-specific-context
-│  ├─ ma-cplp-section-what-our-clients-say
-│  ├─ ma-cplp-section-frequently-asked-questions
-│  ├─ ma-cplp-section-international-support
-│  ├─ application-form
-│  ├─ ma-cplp-list-our-credentials
-│  ├─ ma-cplp-list-related-services
-│  ├─ ma-cplp-section-youre-in-good-hands
-│  ├─ ma-cplp-section-21
-
-├─ youth-exchange.html
-│  ├─ ma-youthexchange-form-youth-exchange-residency-in-brazil-for-programs
-│  ├─ ma-youthexchange-list-quick-facts
-│  ├─ ma-youthexchange-list-common-challenges-applicants-face
-│  ├─ ma-youthexchange-list-how-we-solve-these-challenges
-│  ├─ ma-youthexchange-section-residency-overview
-│  ├─ ma-youthexchange-form-who-is-this-residency-for
-│  ├─ ma-youthexchange-list-required-documents
-│  ├─ ma-youthexchange-list-application-process
-│  ├─ ma-youthexchange-section-timelines-deadlines
-│  ├─ ma-youthexchange-section-fees-costs
-│  ├─ ma-youthexchange-list-risks-common-mistakes
-│  ├─ ma-youthexchange-section-diy-vs-professional-assistance
-│  ├─ ma-youthexchange-section-maranho-specific-context
-│  ├─ ma-youthexchange-section-what-our-clients-say
-│  ├─ ma-youthexchange-section-frequently-asked-questions
-│  ├─ ma-youthexchange-section-international-support
-│  ├─ application-form
-│  ├─ ma-youthexchange-list-our-credentials
-│  ├─ ma-youthexchange-list-related-services
-│  ├─ ma-youthexchange-section-youre-in-good-hands
-│  ├─ ma-youthexchange-section-21
-
-├─ work.html
-│  ├─ ma-work-form-work-and-reside-in-brazil-with-work-residency
-│  ├─ ma-work-list-quick-facts
-│  ├─ ma-work-list-common-challenges-applicants-face
-│  ├─ ma-work-list-how-we-solve-these-challenges
-│  ├─ ma-work-section-residency-overview
-│  ├─ ma-work-form-who-is-this-residency-for
-│  ├─ ma-work-list-required-documents
-│  ├─ ma-work-list-application-process
-│  ├─ ma-work-section-timelines-deadlines
-│  ├─ ma-work-section-fees-costs
-│  ├─ ma-work-list-risks-common-mistakes
-│  ├─ ma-work-section-diy-vs-professional-assistance
-│  ├─ ma-work-section-maranho-specific-context
-│  ├─ ma-work-section-what-our-clients-say
-│  ├─ ma-work-section-frequently-asked-questions
-│  ├─ ma-work-section-international-support
-│  ├─ application-form
-│  ├─ ma-work-list-our-credentials
-│  ├─ ma-work-list-related-services
-│  ├─ ma-work-section-youre-in-good-hands
-│  ├─ ma-work-section-21
-
-├─ startup.html
-│  ├─ ma-startup-form-launch-your-startup-in-brazil-with-the-startup-visa
-│  ├─ ma-startup-list-quick-facts
-│  ├─ ma-startup-list-common-challenges-applicants-face
-│  ├─ ma-startup-list-how-we-solve-these-challenges
-│  ├─ ma-startup-section-visa-overview
-│  ├─ ma-startup-form-who-is-this-visa-for
-│  ├─ ma-startup-list-required-documents
-│  ├─ ma-startup-list-application-process
-│  ├─ ma-startup-section-timelines-deadlines
-│  ├─ ma-startup-section-fees-costs
-│  ├─ ma-startup-list-risks-common-mistakes
-│  ├─ ma-startup-section-diy-vs-professional-assistance
-│  ├─ ma-startup-section-maranho-specific-context
-│  ├─ ma-startup-section-what-our-clients-say
-│  ├─ ma-startup-section-frequently-asked-questions
-│  ├─ ma-startup-section-international-support
-│  ├─ application-form
-│  ├─ ma-startup-list-our-credentials
-│  ├─ ma-startup-list-related-services
-│  ├─ ma-startup-section-youre-in-good-hands
-│  ├─ ma-startup-section-21
-
-├─ family.html
-│  ├─ ma-family-form-reunite-with-family-in-brazil-with-the-family-visa
-│  ├─ ma-family-list-quick-facts
-│  ├─ ma-family-list-common-challenges-applicants-face
-│  ├─ ma-family-list-how-we-solve-these-challenges
-│  ├─ ma-family-section-visa-overview
-│  ├─ ma-family-form-who-is-this-visa-for
-│  ├─ ma-family-list-required-documents
-│  ├─ ma-family-list-application-process
-│  ├─ ma-family-section-timelines-deadlines
-│  ├─ ma-family-section-fees-costs
-│  ├─ ma-family-list-risks-common-mistakes
-│  ├─ ma-family-section-diy-vs-professional-assistance
-│  ├─ ma-family-section-maranho-specific-context
-│  ├─ ma-family-section-what-our-clients-say
-│  ├─ ma-family-section-frequently-asked-questions
-│  ├─ ma-family-section-international-support
-│  ├─ application-form
-│  ├─ ma-family-list-our-credentials
-│  ├─ ma-family-list-related-services
-│  ├─ ma-family-section-youre-in-good-hands
-│  ├─ ma-family-section-21
-
-├─ sports.html
-│  ├─ ma-sports-form-compete-in-brazil-with-the-sports-visa
-│  ├─ ma-sports-list-quick-facts
-│  ├─ ma-sports-list-common-challenges-applicants-face
-│  ├─ ma-sports-list-how-we-solve-these-challenges
-│  ├─ ma-sports-section-visa-overview
-│  ├─ ma-sports-form-who-is-this-visa-for
-│  ├─ ma-sports-list-required-documents
-│  ├─ ma-sports-list-application-process
-│  ├─ ma-sports-section-timelines-deadlines
-│  ├─ ma-sports-section-fees-costs
-│  ├─ ma-sports-list-risks-common-mistakes
-│  ├─ ma-sports-section-diy-vs-professional-assistance
-│  ├─ ma-sports-section-maranho-specific-context
-│  ├─ ma-sports-section-what-our-clients-say
-│  ├─ ma-sports-section-frequently-asked-questions
-│  ├─ ma-sports-section-international-support
-│  ├─ application-form
-│  ├─ ma-sports-list-our-credentials
-│  ├─ ma-sports-list-related-services
-│  ├─ ma-sports-section-youre-in-good-hands
-│  ├─ ma-sports-section-21
-
-├─ medical.html
-│  ├─ ma-medical-form-receive-medical-treatment-in-brazil-with-the-medical-visa
-│  ├─ ma-medical-list-quick-facts
-│  ├─ ma-medical-list-common-challenges-applicants-face
-│  ├─ ma-medical-list-how-we-solve-these-challenges
-│  ├─ ma-medical-section-visa-overview
-│  ├─ ma-medical-form-who-is-this-visa-for
-│  ├─ ma-medical-list-required-documents
-│  ├─ ma-medical-list-application-process
-│  ├─ ma-medical-section-timelines-deadlines
-│  ├─ ma-medical-section-fees-costs
-│  ├─ ma-medical-list-risks-common-mistakes
-│  ├─ ma-medical-section-diy-vs-professional-assistance
-│  ├─ ma-medical-section-maranho-specific-context
-│  ├─ ma-medical-section-what-our-clients-say
-│  ├─ ma-medical-section-frequently-asked-questions
-│  ├─ ma-medical-section-international-support
-│  ├─ application-form
-│  ├─ ma-medical-list-our-credentials
-│  ├─ ma-medical-list-related-services
-│  ├─ ma-medical-section-youre-in-good-hands
-│  ├─ ma-medical-section-21
-
-├─ tourist.html
-│  ├─ ma-tourist-form-visit-brazil-as-a-tourist-with-the-tourist-visa
-│  ├─ ma-tourist-list-quick-facts
-│  ├─ ma-tourist-list-common-challenges-applicants-face
-│  ├─ ma-tourist-list-how-we-solve-these-challenges
-│  ├─ ma-tourist-section-visa-overview
-│  ├─ ma-tourist-form-who-is-this-visa-for
-│  ├─ ma-tourist-list-required-documents
-│  ├─ ma-tourist-list-application-process
-│  ├─ ma-tourist-section-timelines-deadlines
-│  ├─ ma-tourist-section-fees-costs
-│  ├─ ma-tourist-list-risks-common-mistakes
-│  ├─ ma-tourist-section-diy-vs-professional-assistance
-│  ├─ ma-tourist-section-maranho-specific-context
-│  ├─ ma-tourist-section-what-our-clients-say
-│  ├─ ma-tourist-section-frequently-asked-questions
-│  ├─ ma-tourist-section-international-support
-│  ├─ application-form
-│  ├─ ma-tourist-list-our-credentials
-│  ├─ ma-tourist-list-related-services
-│  ├─ ma-tourist-section-youre-in-good-hands
-│  ├─ ma-tourist-section-21
-
-├─ transit.html
-│  ├─ ma-transit-form-transit-through-brazil-with-the-transit-visa
-│  ├─ ma-transit-list-quick-facts
-│  ├─ ma-transit-list-common-challenges-applicants-face
-│  ├─ ma-transit-list-how-we-solve-these-challenges
-│  ├─ ma-transit-section-visa-overview
-│  ├─ ma-transit-form-who-is-this-visa-for
-│  ├─ ma-transit-list-required-documents
-│  ├─ ma-transit-list-application-process
-│  ├─ ma-transit-section-timelines-deadlines
-│  ├─ ma-transit-section-fees-costs
-│  ├─ ma-transit-list-risks-common-mistakes
-│  ├─ ma-transit-section-diy-vs-professional-assistance
-│  ├─ ma-transit-section-maranho-specific-context
-│  ├─ ma-transit-section-what-our-clients-say
-│  ├─ ma-transit-section-frequently-asked-questions
-│  ├─ ma-transit-section-international-support
-│  ├─ application-form
-│  ├─ ma-transit-list-our-credentials
-│  ├─ ma-transit-list-related-services
-│  ├─ ma-transit-section-youre-in-good-hands
-│  ├─ ma-transit-section-21
-
-├─ student.html
-│  ├─ ma-student-form-study-in-brazil-with-the-student-visa
-│  ├─ ma-student-list-quick-facts
-│  ├─ ma-student-list-common-challenges-applicants-face
-│  ├─ ma-student-list-how-we-solve-these-challenges
-│  ├─ ma-student-section-visa-overview
-│  ├─ ma-student-form-who-is-this-visa-for
-│  ├─ ma-student-list-required-documents
-│  ├─ ma-student-list-application-process
-│  ├─ ma-student-section-timelines-deadlines
-│  ├─ ma-student-section-fees-costs
-│  ├─ ma-student-list-risks-common-mistakes
-│  ├─ ma-student-section-diy-vs-professional-assistance
-│  ├─ ma-student-section-maranho-specific-context
-│  ├─ ma-student-section-what-our-clients-say
-│  ├─ ma-student-section-frequently-asked-questions
-│  ├─ ma-student-section-international-support
-│  ├─ application-form
-│  ├─ ma-student-list-our-credentials
-│  ├─ ma-student-list-related-services
-│  ├─ ma-student-section-youre-in-good-hands
-│  ├─ ma-student-section-21
-
-├─ business.html
-│  ├─ ma-business-form-conduct-business-in-brazil-with-the-business-visa
-│  ├─ ma-business-list-quick-facts
-│  ├─ ma-business-list-common-challenges-applicants-face
-│  ├─ ma-business-list-how-we-solve-these-challenges
-│  ├─ ma-business-section-visa-overview
-│  ├─ ma-business-form-who-is-this-visa-for
-│  ├─ ma-business-list-required-documents
-│  ├─ ma-business-list-application-process
-│  ├─ ma-business-section-timelines-deadlines
-│  ├─ ma-business-section-fees-costs
-│  ├─ ma-business-list-risks-common-mistakes
-│  ├─ ma-business-section-diy-vs-professional-assistance
-│  ├─ ma-business-section-maranho-specific-context
-│  ├─ ma-business-section-what-our-clients-say
-│  ├─ ma-business-section-frequently-asked-questions
-│  ├─ ma-business-section-international-support
-│  ├─ application-form
-│  ├─ ma-business-list-our-credentials
-│  ├─ ma-business-list-related-services
-│  ├─ ma-business-section-youre-in-good-hands
-│  ├─ ma-business-section-21
-
-├─ research.html
-│  ├─ ma-research-form-conduct-research-in-brazil-with-the-research-visa
-│  ├─ ma-research-list-quick-facts
-│  ├─ ma-research-list-common-challenges-applicants-face
-│  ├─ ma-research-list-how-we-solve-these-challenges
-│  ├─ ma-research-section-visa-overview
-│  ├─ ma-research-form-who-is-this-visa-for
-│  ├─ ma-research-list-required-documents
-│  ├─ ma-research-list-application-process
-│  ├─ ma-research-section-timelines-deadlines
-│  ├─ ma-research-section-fees-costs
-│  ├─ ma-research-list-risks-common-mistakes
-│  ├─ ma-research-section-diy-vs-professional-assistance
-│  ├─ ma-research-section-maranho-specific-context
-│  ├─ ma-research-section-what-our-clients-say
-│  ├─ ma-research-section-frequently-asked-questions
-│  ├─ ma-research-section-international-support
-│  ├─ application-form
-│  ├─ ma-research-list-our-credentials
-│  ├─ ma-research-list-related-services
-│  ├─ ma-research-section-youre-in-good-hands
-│  ├─ ma-research-section-21
-
-├─ diplomatic.html
-│  ├─ ma-diplomatic-form-official-diplomatic-visa-for-brazil-missions
-│  ├─ ma-diplomatic-list-quick-facts
-│  ├─ ma-diplomatic-list-common-challenges-applicants-face
-│  ├─ ma-diplomatic-list-how-we-solve-these-challenges
-│  ├─ ma-diplomatic-section-visa-overview
-│  ├─ ma-diplomatic-form-who-is-this-visa-for
-│  ├─ ma-diplomatic-list-required-documents
-│  ├─ ma-diplomatic-list-application-process
-│  ├─ ma-diplomatic-section-timelines-deadlines
-│  ├─ ma-diplomatic-section-fees-costs
-│  ├─ ma-diplomatic-list-risks-common-mistakes
-│  ├─ ma-diplomatic-section-diy-vs-professional-assistance
-│  ├─ ma-diplomatic-section-maranho-specific-context
-│  ├─ ma-diplomatic-section-what-our-clients-say
-│  ├─ ma-diplomatic-section-frequently-asked-questions
-│  ├─ ma-diplomatic-section-international-support
-│  ├─ application-form
-│  ├─ ma-diplomatic-list-our-credentials
-│  ├─ ma-diplomatic-list-related-services
-│  ├─ ma-diplomatic-section-youre-in-good-hands
-│  ├─ ma-diplomatic-section-21
-
-├─ journalist.html
-│  ├─ ma-journalist-form-cover-news-in-brazil-with-the-journalist-visa
-│  ├─ ma-journalist-list-quick-facts
-│  ├─ ma-journalist-list-common-challenges-applicants-face
-│  ├─ ma-journalist-list-how-we-solve-these-challenges
-│  ├─ ma-journalist-section-visa-overview
-│  ├─ ma-journalist-form-who-is-this-visa-for
-│  ├─ ma-journalist-list-required-documents
-│  ├─ ma-journalist-list-application-process
-│  ├─ ma-journalist-section-timelines-deadlines
-│  ├─ ma-journalist-section-fees-costs
-│  ├─ ma-journalist-list-risks-common-mistakes
-│  ├─ ma-journalist-section-diy-vs-professional-assistance
-│  ├─ ma-journalist-section-maranho-specific-context
-│  ├─ ma-journalist-section-what-our-clients-say
-│  ├─ ma-journalist-section-frequently-asked-questions
-│  ├─ ma-journalist-section-international-support
-│  ├─ application-form
-│  ├─ ma-journalist-list-our-credentials
-│  ├─ ma-journalist-list-related-services
-│  ├─ ma-journalist-section-youre-in-good-hands
-│  ├─ ma-journalist-section-21
-
-├─ fines.html
-│  ├─ ma-fines-form-resolve-immigration-fines-in-brazil
-│  ├─ ma-fines-list-quick-facts
-│  ├─ ma-fines-list-common-challenges-applicants-face
-│  ├─ ma-fines-list-how-we-solve-these-challenges
-│  ├─ ma-fines-section-service-overview
-│  ├─ ma-fines-form-who-is-this-service-for
-│  ├─ ma-fines-list-required-documents
-│  ├─ ma-fines-list-process
-│  ├─ ma-fines-section-timelines-deadlines
-│  ├─ ma-fines-section-fees-costs
-│  ├─ ma-fines-list-risks-common-mistakes
-│  ├─ ma-fines-section-diy-vs-professional-assistance
-│  ├─ ma-fines-section-maranho-specific-context
-│  ├─ ma-fines-section-what-our-clients-say
-│  ├─ ma-fines-section-frequently-asked-questions
-│  ├─ ma-fines-section-international-support
-│  ├─ application-form
-│  ├─ ma-fines-list-our-credentials
-│  ├─ ma-fines-list-related-services
-│  ├─ ma-fines-section-youre-in-good-hands
-│  ├─ ma-fines-section-21
-
-├─ deportation.html
-│  ├─ ma-deportation-form-deportation-assistance-in-brazil
-│  ├─ ma-deportation-list-quick-facts
-│  ├─ ma-deportation-list-common-challenges-applicants-face
-│  ├─ ma-deportation-list-how-we-solve-these-challenges
-│  ├─ ma-deportation-section-service-overview
-│  ├─ ma-deportation-form-who-is-this-service-for
-│  ├─ ma-deportation-list-required-documents
-│  ├─ ma-deportation-list-process
-│  ├─ ma-deportation-section-timelines-deadlines
-│  ├─ ma-deportation-section-fees-costs
-│  ├─ ma-deportation-list-risks-common-mistakes
-│  ├─ ma-deportation-section-diy-vs-professional-assistance
-│  ├─ ma-deportation-section-maranho-specific-context
-│  ├─ ma-deportation-section-what-our-clients-say
-│  ├─ ma-deportation-section-frequently-asked-questions
-│  ├─ ma-deportation-section-international-support
-│  ├─ application-form
-│  ├─ ma-deportation-list-our-credentials
-│  ├─ ma-deportation-list-related-services
-│  ├─ ma-deportation-section-youre-in-good-hands
-│  ├─ ma-deportation-section-21
-
-├─ translation.html
-│  ├─ ma-translation-form-sworn-document-translation-services-in-brazil
-│  ├─ ma-translation-list-quick-facts
-│  ├─ ma-translation-list-common-challenges-applicants-face
-│  ├─ ma-translation-list-how-we-solve-these-challenges
-│  ├─ ma-translation-section-service-overview
-│  ├─ ma-translation-form-who-is-this-service-for
-│  ├─ ma-translation-list-required-documents
-│  ├─ ma-translation-list-process
-│  ├─ ma-translation-section-timelines-deadlines
-│  ├─ ma-translation-section-fees-costs
-│  ├─ ma-translation-list-risks-common-mistakes
-│  ├─ ma-translation-section-diy-vs-professional-assistance
-│  ├─ ma-translation-section-maranho-specific-context
-│  ├─ ma-translation-section-what-our-clients-say
-│  ├─ ma-translation-section-frequently-asked-questions
-│  ├─ ma-translation-section-international-support
-│  ├─ application-form
-│  ├─ ma-translation-list-our-credentials
-│  ├─ ma-translation-list-related-services
-│  ├─ ma-translation-section-youre-in-good-hands
-│  ├─ ma-translation-section-21
-
-├─ expulsion.html
-│  ├─ ma-expulsion-form-expulsion-assistance-in-brazil
-│  ├─ ma-expulsion-list-quick-facts
-│  ├─ ma-expulsion-list-common-challenges-applicants-face
-│  ├─ ma-expulsion-list-how-we-solve-these-challenges
-│  ├─ ma-expulsion-section-service-overview
-│  ├─ ma-expulsion-form-who-is-this-service-for
-│  ├─ ma-expulsion-list-required-documents
-│  ├─ ma-expulsion-list-process
-│  ├─ ma-expulsion-section-timelines-deadlines
-│  ├─ ma-expulsion-section-fees-costs
-│  ├─ ma-expulsion-list-risks-common-mistakes
-│  ├─ ma-expulsion-section-diy-vs-professional-assistance
-│  ├─ ma-expulsion-section-maranho-specific-context
-│  ├─ ma-expulsion-section-what-our-clients-say
-│  ├─ ma-expulsion-section-frequently-asked-questions
-│  ├─ ma-expulsion-section-international-support
-│  ├─ application-form
-│  ├─ ma-expulsion-list-our-credentials
-│  ├─ ma-expulsion-list-related-services
-│  ├─ ma-expulsion-section-youre-in-good-hands
-│  ├─ ma-expulsion-section-21
-
-├─ appeals.html
-│  ├─ ma-appeals-form-appeal-immigration-denials-in-brazil
-│  ├─ ma-appeals-list-quick-facts
-│  ├─ ma-appeals-list-common-challenges-applicants-face
-│  ├─ ma-appeals-list-how-we-solve-these-challenges
-│  ├─ ma-appeals-section-service-overview
-│  ├─ ma-appeals-form-who-is-this-service-for
-│  ├─ ma-appeals-list-required-documents
-│  ├─ ma-appeals-list-appeal-process
-│  ├─ ma-appeals-section-timelines-deadlines
-│  ├─ ma-appeals-section-fees-costs
-│  ├─ ma-appeals-list-risks-common-mistakes
-│  ├─ ma-appeals-section-diy-vs-professional-assistance
-│  ├─ ma-appeals-section-maranho-specific-context
-│  ├─ ma-appeals-section-what-our-clients-say
-│  ├─ ma-appeals-section-frequently-asked-questions
-│  ├─ ma-appeals-section-international-support
-│  ├─ application-form
-│  ├─ ma-appeals-list-our-credentials
-│  ├─ ma-appeals-list-related-services
-│  ├─ ma-appeals-section-youre-in-good-hands
-│  ├─ ma-appeals-section-21
-
-├─ consular.html
-│  ├─ ma-consular-form-consular-services-in-brazil-for-citizens
-│  ├─ ma-consular-list-quick-facts
-│  ├─ ma-consular-list-common-challenges-applicants-face
-│  ├─ ma-consular-list-how-we-solve-these-challenges
-│  ├─ ma-consular-section-service-overview
-│  ├─ ma-consular-form-who-is-this-service-for
-│  ├─ ma-consular-list-required-documents
-│  ├─ ma-consular-list-process
-│  ├─ ma-consular-section-timelines-deadlines
-│  ├─ ma-consular-section-fees-costs
-│  ├─ ma-consular-list-risks-common-mistakes
-│  ├─ ma-consular-section-diy-vs-professional-assistance
-│  ├─ ma-consular-section-maranho-specific-context
-│  ├─ ma-consular-section-what-our-clients-say
-│  ├─ ma-consular-section-frequently-asked-questions
-│  ├─ ma-consular-section-international-support
-│  ├─ application-form
-│  ├─ ma-consular-list-our-credentials
-│  ├─ ma-consular-list-related-services
-│  ├─ ma-consular-section-youre-in-good-hands
-│  ├─ ma-consular-section-21
-
-├─ criminal-records.html
-│  ├─ ma-criminalrecords-form-obtain-criminal-records-certificate-in-brazil
-│  ├─ ma-criminalrecords-list-quick-facts
-│  ├─ ma-criminalrecords-list-common-challenges-applicants-face
-│  ├─ ma-criminalrecords-list-how-we-solve-these-challenges
-│  ├─ ma-criminalrecords-section-service-overview
-│  ├─ ma-criminalrecords-form-who-is-this-service-for
-│  ├─ ma-criminalrecords-list-required-documents
-│  ├─ ma-criminalrecords-list-process
-│  ├─ ma-criminalrecords-section-timelines-deadlines
-│  ├─ ma-criminalrecords-section-fees-costs
-│  ├─ ma-criminalrecords-list-risks-common-mistakes
-│  ├─ ma-criminalrecords-section-diy-vs-professional-assistance
-│  ├─ ma-criminalrecords-section-maranho-specific-context
-│  ├─ ma-criminalrecords-section-what-our-clients-say
-│  ├─ ma-criminalrecords-section-frequently-asked-questions
-│  ├─ ma-criminalrecords-section-international-support
-│  ├─ application-form
-│  ├─ ma-criminalrecords-list-our-credentials
-│  ├─ ma-criminalrecords-list-related-services
-│  ├─ ma-criminalrecords-section-youre-in-good-hands
-│  ├─ ma-criminalrecords-section-21
-
-├─ extradition.html
-│  ├─ ma-extradition-form-extradition-assistance-in-brazil
-│  ├─ ma-extradition-list-quick-facts
-│  ├─ ma-extradition-list-common-challenges-applicants-face
-│  ├─ ma-extradition-list-how-we-solve-these-challenges
-│  ├─ ma-extradition-section-service-overview
-│  ├─ ma-extradition-form-who-is-this-service-for
-│  ├─ ma-extradition-list-required-documents
-│  ├─ ma-extradition-list-process
-│  ├─ ma-extradition-section-timelines-deadlines
-│  ├─ ma-extradition-section-fees-costs
-│  ├─ ma-extradition-list-risks-common-mistakes
-│  ├─ ma-extradition-section-diy-vs-professional-assistance
-│  ├─ ma-extradition-section-maranho-specific-context
-│  ├─ ma-extradition-section-what-our-clients-say
-│  ├─ ma-extradition-section-frequently-asked-questions
-│  ├─ ma-extradition-section-international-support
-│  ├─ application-form
-│  ├─ ma-extradition-list-our-credentials
-│  ├─ ma-extradition-list-related-services
-│  ├─ ma-extradition-section-youre-in-good-hands
-│  ├─ ma-extradition-section-21
-
-├─ north.html
-│  ├─ ma-north-form-discover-the-north-amazon-and-beyond
-│  ├─ ma-north-list-quick-facts
-│  ├─ ma-north-list-common-challenges-applicants-face
-│  ├─ ma-north-list-how-we-solve-these-challenges
-│  ├─ ma-north-section-trip-overview
-│  ├─ ma-north-form-who-is-this-trip-for
-│  ├─ ma-north-list-required-documents
-│  ├─ ma-north-list-booking-process
-│  ├─ ma-north-section-timelines-deadlines
-│  ├─ ma-north-section-fees-costs
-│  ├─ ma-north-list-risks-common-mistakes
-│  ├─ ma-north-section-diy-vs-professional-assistance
-│  ├─ ma-north-section-maranho-specific-context
-│  ├─ ma-north-section-what-our-clients-say
-│  ├─ ma-north-section-frequently-asked-questions
-│  ├─ ma-north-section-international-support
-│  ├─ application-form
-│  ├─ ma-north-list-our-credentials
-│  ├─ ma-north-list-related-services
-│  ├─ ma-north-section-youre-in-good-hands
-│  ├─ ma-north-section-21
+├─ mobile-nav.html
+│  ├─ mobile-nav
 
 ├─ central-west.html
-│  ├─ ma-centralwest-form-wild-centralwest-pantanal-and-cerrado
-│  ├─ ma-centralwest-list-quick-facts
-│  ├─ ma-centralwest-list-common-challenges-applicants-face
-│  ├─ ma-centralwest-list-how-we-solve-these-challenges
-│  ├─ ma-centralwest-section-trip-overview
-│  ├─ ma-centralwest-form-who-is-this-trip-for
-│  ├─ ma-centralwest-list-required-documents
-│  ├─ ma-centralwest-list-booking-process
-│  ├─ ma-centralwest-section-timelines-deadlines
-│  ├─ ma-centralwest-section-fees-costs
-│  ├─ ma-centralwest-list-risks-common-mistakes
-│  ├─ ma-centralwest-section-diy-vs-professional-assistance
-│  ├─ ma-centralwest-section-maranho-specific-context
-│  ├─ ma-centralwest-section-what-our-clients-say
-│  ├─ ma-centralwest-section-frequently-asked-questions
-│  ├─ ma-centralwest-section-international-support
-│  ├─ application-form
-│  ├─ ma-centralwest-list-our-credentials
-│  ├─ ma-centralwest-list-related-services
-│  ├─ ma-centralwest-section-youre-in-good-hands
-│  ├─ ma-centralwest-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
-├─ southeast.html
-│  ├─ ma-southeast-form-dynamic-southeast-cities-and-history
-│  ├─ ma-southeast-list-quick-facts
-│  ├─ ma-southeast-list-common-challenges-applicants-face
-│  ├─ ma-southeast-list-how-we-solve-these-challenges
-│  ├─ ma-southeast-section-trip-overview
-│  ├─ ma-southeast-form-who-is-this-trip-for
-│  ├─ ma-southeast-list-required-documents
-│  ├─ ma-southeast-list-booking-process
-│  ├─ ma-southeast-section-timelines-deadlines
-│  ├─ ma-southeast-section-fees-costs
-│  ├─ ma-southeast-list-risks-common-mistakes
-│  ├─ ma-southeast-section-diy-vs-professional-assistance
-│  ├─ ma-southeast-section-maranho-specific-context
-│  ├─ ma-southeast-section-what-our-clients-say
-│  ├─ ma-southeast-section-frequently-asked-questions
-│  ├─ ma-southeast-section-international-support
-│  ├─ application-form
-│  ├─ ma-southeast-list-our-credentials
-│  ├─ ma-southeast-list-related-services
-│  ├─ ma-southeast-section-youre-in-good-hands
-│  ├─ ma-southeast-section-21
+├─ north.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ northeast.html
-│  ├─ ma-northeast-form-vibrant-northeast-beaches-and-culture
-│  ├─ ma-northeast-list-quick-facts
-│  ├─ ma-northeast-list-common-challenges-applicants-face
-│  ├─ ma-northeast-list-how-we-solve-these-challenges
-│  ├─ ma-northeast-section-trip-overview
-│  ├─ ma-northeast-form-who-is-this-trip-for
-│  ├─ ma-northeast-list-required-documents
-│  ├─ ma-northeast-list-booking-process
-│  ├─ ma-northeast-section-timelines-deadlines
-│  ├─ ma-northeast-section-fees-costs
-│  ├─ ma-northeast-list-risks-common-mistakes
-│  ├─ ma-northeast-section-diy-vs-professional-assistance
-│  ├─ ma-northeast-section-maranho-specific-context
-│  ├─ ma-northeast-section-what-our-clients-say
-│  ├─ ma-northeast-section-frequently-asked-questions
-│  ├─ ma-northeast-section-international-support
-│  ├─ application-form
-│  ├─ ma-northeast-list-our-credentials
-│  ├─ ma-northeast-list-related-services
-│  ├─ ma-northeast-section-youre-in-good-hands
-│  ├─ ma-northeast-section-21
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
 
 ├─ south.html
-│  ├─ ma-south-form-charming-south-wine-and-gauchos
-│  ├─ ma-south-list-quick-facts
-│  ├─ ma-south-list-common-challenges-applicants-face
-│  ├─ ma-south-list-how-we-solve-these-challenges
-│  ├─ ma-south-section-trip-overview
-│  ├─ ma-south-form-who-is-this-trip-for
-│  ├─ ma-south-list-required-documents
-│  ├─ ma-south-list-booking-process
-│  ├─ ma-south-section-timelines-deadlines
-│  ├─ ma-south-section-fees-costs
-│  ├─ ma-south-list-risks-common-mistakes
-│  ├─ ma-south-section-diy-vs-professional-assistance
-│  ├─ ma-south-section-maranho-specific-context
-│  ├─ ma-south-section-what-our-clients-say
-│  ├─ ma-south-section-frequently-asked-questions
-│  ├─ ma-south-section-international-support
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ southeast.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ derivative.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ extraordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ ordinary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ provisional.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ reacquisition-citizenship.html
+│  ├─ hero-heading
 │  ├─ application-form
-│  ├─ ma-south-list-our-credentials
-│  ├─ ma-south-list-related-services
-│  ├─ ma-south-section-youre-in-good-hands
-│  ├─ ma-south-section-21
+
+├─ reacquisition.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ renouncing-citizenship.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ special.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ apostille.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ appeals.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ authentication.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ company-formation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ consular.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ consultation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cpf.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ criminal-records.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ deportation.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ expulsion.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ extradition.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ fines.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ power-of-attorney.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ rne.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ translation.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cplp.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ crnm.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family-reunion.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ health-treatment.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investment.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ investor.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ marriage.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ mercosul.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ permanent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ researcher.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ scientific-research.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ skilled-worker.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ startup.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ study.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ temporary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ youth-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ artist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ artistic.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ business.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ crew.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ cultural.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ dependent.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ digital-nomad.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ diplomatic.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ educational-exchange.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ family.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ humanitarian.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ investor.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ journalist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ medical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ missionary.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ official.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ religious.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ research.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ retiree.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ sports.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ startup.html
+│  ├─ hero-heading
+│  ├─ application-form
+
+├─ student.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ technical.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ tourist.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ transit.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ volunteer.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work-mercosur.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent
+
+├─ work.html
+│  ├─ details
+│  ├─ contact
+│  ├─ name
+│  ├─ email
+│  ├─ phone
+│  ├─ nationality
+│  ├─ message
+│  ├─ cookie-consent

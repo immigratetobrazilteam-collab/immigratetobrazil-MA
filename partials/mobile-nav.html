@@ -1,52 +1,15 @@
-<nav class="mobile-nav md:hidden" aria-label="Mobile navigation">
-    <button aria-expanded="false" aria-controls="mobile-menu" class="w-full px-4 py-2 bg-[#DAA520] text-white rounded flex justify-between items-center">Menu <i class="fas fa-chevron-down"></i></button>
-    <ul id="mobile-menu" class="hidden flex flex-col bg-white shadow-md rounded-md mt-1 overflow-auto max-h-[80vh]">
-        <li><a href="/" class="block px-4 py-2 hover:bg-[#FF6347]/10">Home</a></li>
-        <li>
-            <button class="w-full text-left px-4 py-2 hover:bg-[#FF6347]/10 flex justify-between items-center" aria-expanded="false" aria-controls="services-sub">Services <i class="fas fa-chevron-down"></i></button>
-            <ul id="services-sub" class="hidden pl-4">
-                <li class="font-bold py-1">Travel Services</li>
-                
-                <li class="font-bold py-1 mt-2">Brazilian Visas</li>
-                <li><a href="/visas/artistic-visa" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Artistic Visa">Artistic Visa</a></li>
-                <li class="font-bold py-1 mt-2">Residency Permits</li>
-                
-                <li class="font-bold py-1 mt-2">Citizenship & Naturalisation</li>
-                
-                <li class="font-bold py-1 mt-2">Other Services</li>
-                
-            </ul>
-        </li>
-        <li>
-            <button class="w-full text-left px-4 py-2 hover:bg-[#FF6347]/10 flex justify-between items-center" aria-expanded="false" aria-controls="explore-sub">Explore Maranhão <i class="fas fa-chevron-down"></i></button>
-            <ul id="explore-sub" class="hidden pl-4">
-                <li><a href="/explore/lençóis-maranhenses-national-park" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Lençóis Maranhenses National Park">Lençóis Maranhenses National Park</a></li><li><a href="/explore/são-luís-(unesco-world-heritage-site)" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="São Luís (UNESCO World Heritage Site)">São Luís (UNESCO World Heritage Site)</a></li><li><a href="/explore/dunes-of-lençóis-maranhenses" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Dunes of Lençóis Maranhenses">Dunes of Lençóis Maranhenses</a></li><li><a href="/explore/parnaíba-river-delta-(with-lagoons,-desert-dunes,-deserted-beaches-or-islands-such-as-caju-island)" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Parnaíba River delta (with lagoons, desert dunes, deserted beaches or islands such as Caju island)">Parnaíba River delta (with lagoons, desert dunes, deserted beaches or islands such as Caju island)</a></li><li><a href="/explore/maranhão-mangroves-(tallest-mangrove-forests-in-the-world)" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Maranhão mangroves (tallest mangrove forests in the world)">Maranhão mangroves (tallest mangrove forests in the world)</a></li><li><a href="/explore/tropical-moist-forests-(including-tocantins–araguaia–maranhão-moist-forests,-maranhão-babaçu-forests)" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="tropical moist forests (including Tocantins–Araguaia–Maranhão moist forests, Maranhão Babaçu forests)">tropical moist forests (including Tocantins–Araguaia–Maranhão moist forests, Maranhão Babaçu forests)</a></li><li><a href="/explore/cerrado-savannas" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Cerrado savannas">Cerrado savannas</a></li><li><a href="/explore/chapada-das-mangabeiras" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Chapada das Mangabeiras">Chapada das Mangabeiras</a></li><li><a href="/explore/serra-do-tiracambu" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Serra do Tiracambu">Serra do Tiracambu</a></li><li><a href="/explore/serra-das-alpercatas" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Serra das Alpercatas">Serra das Alpercatas</a></li><li><a href="/explore/morro-do-chapéu-peak" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Morro do Chapéu Peak">Morro do Chapéu Peak</a></li><li><a href="/explore/lençóis-maranhenses-national-park" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Lençóis Maranhenses National Park">Lençóis Maranhenses National Park</a></li><li><a href="/explore/babassu-oil-(extracted-from-babaçu-palm,-used-for-food-and-beauty-products)" class="block py-2 pl-4 hover:bg-[#FF6347]/10" title="Babassu oil (extracted from Babaçu palm, used for food and beauty products)">Babassu oil (extracted from Babaçu palm, used for food and beauty products)</a></li>
-            </ul>
-        </li>
-        <li><a href="/contact" class="block px-4 py-2 hover:bg-[#FF6347]/10">Contact</a></li>
-        <li><a href="/faq" class="block px-4 py-2 hover:bg-[#FF6347]/10">FAQ</a></li>
-        <li><a href="/blog" class="block px-4 py-2 hover:bg-[#FF6347]/10">Blog</a></li>
-        <li><a href="/about" class="block px-4 py-2 hover:bg-[#FF6347]/10">About</a></li>
-    </ul>
-    <script>
-        const menuBtn = document.querySelector('.mobile-nav button');
-        const menu = document.getElementById('mobile-menu');
-        menuBtn.addEventListener('click', () => {
-            const expanded = menuBtn.getAttribute('aria-expanded') === 'true';
-            menuBtn.setAttribute('aria-expanded', !expanded);
-            menu.classList.toggle('hidden');
-            menuBtn.querySelector('i').classList.toggle('fa-chevron-down');
-            menuBtn.querySelector('i').classList.toggle('fa-chevron-up');
-        });
-        document.querySelectorAll('.mobile-nav li button').forEach(subBtn => {
-            subBtn.addEventListener('click', () => {
-                const expanded = subBtn.getAttribute('aria-expanded') === 'true';
-                subBtn.setAttribute('aria-expanded', !expanded);
-                const subMenu = document.getElementById(subBtn.getAttribute('aria-controls'));
-                subMenu.classList.toggle('hidden');
-                subBtn.querySelector('i').classList.toggle('fa-chevron-down');
-                subBtn.querySelector('i').classList.toggle('fa-chevron-up');
-            });
-        });
-    </script>
+<nav class="mobile-nav hidden" id="mobile-nav" role="navigation" aria-label="Mobile navigation">
+    <div class="mobile-nav-content">
+        <button class="mobile-nav-close" aria-label="Close menu">&times;</button>
+        <ul class="mobile-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="mobile-dropdown">
+                <button class="mobile-dropdown-toggle">Services ▼</button>
+                <ul class="mobile-dropdown-menu">
+                    <li><a href="services/guided-trips.html">Guided Trips</a></li>\n                    <li><a href="services/naturalisation.html">Naturalisation</a></li>\n                    <li><a href="services/other-services.html">Other Services</a></li>\n                    <li><a href="services/residencies.html">Residencies</a></li>\n                    <li><a href="services/visas.html">Visas</a></li>\n                </ul>
+            </li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
 </nav>
